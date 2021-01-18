@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'maven-publish'
-group 'artifact.new.ojo'
+group 'com.github.hemanthsridhar'
 
 sourceCompatibility = 1.8
 

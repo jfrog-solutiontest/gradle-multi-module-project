@@ -3,13 +3,13 @@ plugins {
 }
 
 apply plugin: 'maven-publish'
-group 'artifact.new.ojo'
+group 'com.github.hemanthsridhar'
 
 sourceCompatibility = 1.8
 
 
 dependencies {
-    compile project(':artifact-add')
+    compile project(':gradle-artifact-add')
     testCompile group: 'org.testng', name: 'testng', version: '7.3.0'
 }
 

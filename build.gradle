@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'maven-publish'
-group 'artifact.new.ojo'
+group 'com.github.hemanthsridhar'
 
 sourceCompatibility = 1.8
 
@@ -46,7 +46,7 @@ subprojects {
 }
 
 jar {
-    baseName = 'artifact'
+    baseName = 'gradle'
 }
 
 subprojects {
@@ -83,7 +83,7 @@ subprojects {
             repositories {
                 maven {
                     name = "bintray"
-                    url = uri("https://${apiBintrayUrl}/maven/hemanthsridhar/testing/pkg/;publish=0")
+                    url = uri("https://${apiBintrayUrl}/maven/hemanthsridhar/jcenter-test-repos/jcenter-test-gradle-pkg/;publish=0")
                     credentials {
                         username = "${bintrayUsername}"
                         password = "${bintrayPassword}"
