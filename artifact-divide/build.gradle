@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: 'maven-publish'
+group 'artifact.new.ojo'
+
+sourceCompatibility = 1.8
+
+dependencies{
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.9.1'
+}

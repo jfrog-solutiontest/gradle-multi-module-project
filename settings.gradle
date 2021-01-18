@@ -1,0 +1,5 @@
+rootProject.name = 'artifact'
+include 'artifact-add'
+include 'artifact-subtract'
+include 'artifact-multiply'
+include 'artifact-divide'
