@@ -83,7 +83,7 @@ subprojects {
             repositories {
                 maven {
                     name = "bintray"
-                    url = uri("https://${apiBintrayUrl}/maven/hemanthsridhar/testing/pkg/;publish=1")
+                    url = uri("https://${apiBintrayUrl}/maven/hemanthsridhar/testing/pkg/;publish=0")
                     credentials {
                         username = "${bintrayUsername}"
                         password = "${bintrayPassword}"
